@@ -13,7 +13,7 @@ public class Subscriber {
 	}
 
 	public void update() {
-		System.out.println("Hey "+name+", video uploaded: "+channel.title);
+		System.out.println("Hey "+name+", new video uploaded: "+channel.title);
 	}
 	
 	public void subscribeChannel(Channel ch) {
