@@ -1,19 +1,20 @@
-package com.jdbc.callablestatement.controller;
+package com.jdbc.callablestatement;
 
 import java.sql.SQLException;
 
 import com.jdbc.callablestatement.service.Service;
 import com.jdbc.callablestatement.utility.Utility;
 
-
-
-
-
-
+/**
+ * Purpose : Program using callable statement
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class TestDemo {
 
 	public static void main(String[] args) throws SQLException {
-		
+
 		Service service = new Service();
 
 		int choice = 0;
@@ -27,11 +28,11 @@ public class TestDemo {
 				service.addDatabase();
 				break;
 			case 2:
-				
+
 				service.addTable();
 				break;
 			case 3:
-				
+
 				service.addUser();
 				break;
 			case 4:
@@ -47,7 +48,7 @@ public class TestDemo {
 				break;
 			case 7:
 				return;
-				
+
 			}
 		} while (choice != 5);
 	}

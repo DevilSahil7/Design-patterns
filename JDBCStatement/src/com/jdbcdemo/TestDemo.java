@@ -1,12 +1,11 @@
-package com.jdbcpreparedstatement.controller;
+package com.jdbcdemo;
 
 import java.sql.SQLException;
+import com.jdbcdemo.model.DatabaseName;
+import com.jdbcdemo.model.User;
+import com.jdbcdemo.servicedemo.Service;
 
-import com.jdbcpreparedstatement.service.Service;
-import com.jdbcpreparedstatement.utility.Utility;
-
-
-
+import con.jdbcdemo.utility.Utility;
 
 public class TestDemo {
 

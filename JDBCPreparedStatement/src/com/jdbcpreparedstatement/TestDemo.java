@@ -1,12 +1,17 @@
-package com.jdbcdemo.controllerdemo;
+package com.jdbcpreparedstatement;
 
 import java.sql.SQLException;
-import com.jdbcdemo.model.DatabaseName;
-import com.jdbcdemo.model.User;
-import com.jdbcdemo.servicedemo.Service;
 
-import con.jdbcdemo.utility.Utility;
+import com.jdbcpreparedstatement.service.Service;
+import com.jdbcpreparedstatement.utility.Utility;
 
+
+/**
+ * Purpose : Program to perform task using prepared statement
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class TestDemo {
 
 	public static void main(String[] args) throws SQLException {
